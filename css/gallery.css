@@ -1,0 +1,61 @@
+li {
+    display: inline;
+  }
+
+  .flower-preview img{
+    /*change the cursor to the pointer*/
+    cursor: pointer;
+  }
+  img.flower-active{
+    opacity: 1;
+  }
+section{
+  /*
+the color of the section is rainbow used linear gradient
+  */
+  margin-top: 0%;
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  align-items: center;
+  
+
+}
+#mainImage{
+  /* style the main image the border and alignment and opacity*/
+  margin-left: 100px;
+  opacity: .7;
+  border: 2px solid red;
+  border-radius: 30%;
+}
+ul{
+  margin-left: 100px;
+}
+h1{
+  text-align: center;
+  align-items: center;
+  background-color: rgb(25, 237, 117);
+  color: red;
+}
+
+figcaption{
+  /*align the figcaption*/
+  text-align: center;
+}
+ul li img{
+  /*target the image in the ul li list*/
+  border-radius: 50%;
+  transition: transform .3s ease-in-out;
+  border: 2px solid greenyellow;
+  
+  
+}
+ul li img:hover{
+  /*zoom in the image when hover on it */
+  
+
+  transform: scale(.8);
+    -moz-transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -o-transform: scale(.8);
+    -ms-transform: scale(.8);
+}
+  
